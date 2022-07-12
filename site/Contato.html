@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Travel</title>
+    <link rel="shortcut icon" href="images/favicon_32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-muted">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Home.html"><img src="./images/favicon_96.png" alt="bellum_íncone"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Destinos.html" target="_blank">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Promocoes.html" target="_blank">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contato.html" target="_blank">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <h1></h1>
+        <form action="">
+            <label class="form-label" for="nome">Nome: </label>
+            <input class="form-control" type="text">
+            <label class="form-label" for="e-mail">Seu e-mail: </label>
+            <input class="form-control" type="text">
+            <label class="form-label" for="msg">Mensagem: </label>
+            <textarea class="form-control" rows="" cols=""></textarea>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Solicite sua reserva via e-mail...
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Agradecemos seu contato!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Responderemos o quão antes, ou em até 24 horas úteis!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não vejo a hora!</button>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </main><br>
+    <footer><br>
+        <table align="center">
+            <tr>
+                <th><a href="#whatsapp"><img src="images/Social/Whatsapp_128.png" alt="whatsapp"></a></th>
+                <th><a href="#instagram"><img src="images/Social/insta_128.png" alt="instagram"></a></th>
+                <th><a href="#facebook"><img src="images/Social/facebook_128.png" alt="facebook"></a></th>
+            </tr>
+        </table><br>
+        
+        <p>&copy<small>Bellum Travel 2022</small></p>
+    </footer>
+
+</body>
+
+</html>
